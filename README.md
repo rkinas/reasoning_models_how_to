@@ -1,8 +1,40 @@
 # Thinking model research notes
 
+# RL
+- [A COMPREHENSIVE SURVEY OF LLM ALIGNMENT TECHNIQUES: RLHF, RLAIF, PPO, DPO AND MORE](https://arxiv.org/pdf/2407.16216)
+
+- [PPO - Proximal Policy Optimization Algorithm - OpenAI](https://arxiv.org/pdf/1707.06347)
+- [DPO - Direct Preference Optimization: Your Language Model is Secretly a Reward Model - Standford](https://arxiv.org/pdf/2305.18290)
+- [online DPO]()
+- [KTO - KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306)
+- [SimPO imple Preference Optimization with a Reference-Free Reward - Princeton](https://arxiv.org/pdf/2405.14734v1)
+- [ORPO - Monolithic Preference Optimization without Reference Model - Kaist AI](https://arxiv.org/pdf/2403.07691v2)
+- [REINFORCE]
+- [REINFORCE++](https://arxiv.org/pdf/2501.03262v1)
+- [RPO Reward-aware Preference Optimization: A Unified Mathematical Framework for Model Alignment](https://arxiv.org/pdf/2501.03262v1)
+- RLOO 
+- [GRPO]
+- [ReMax -  Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models](https://arxiv.org/pdf/2310.10505)
+- [DPOP]
+- [BCO]
+- [GKD]
+
+# RL explained
+- [GRPO vs PPO](https://yugeten.github.io/posts/2025/01/ppogrpo/)
+
+# Training frameworks
+- [VERL](https://github.com/volcengine/verl)
+- [](https://github.com/OpenRLHF/OpenRLHF)
+- [TRL](https://huggingface.co/docs/trl/)
+
+# Articles
+- [LIMR: Less is More for RL Scaling]()
+- [](https://github.com/GAIR-NLP/LIMO)
+- [](https://github.com/simplescaling/s1)
+
 # Datasets
 - [Y] https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
-- 
+
 - [Y] https://huggingface.co/datasets/simplescaling/s1K-1.1
 - [Y] https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k
 - [Y] https://huggingface.co/datasets/GAIR/LIMO
