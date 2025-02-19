@@ -24,13 +24,15 @@
 
 # Training frameworks
 - [VERL](https://github.com/volcengine/verl)
-- [](https://github.com/OpenRLHF/OpenRLHF)
+- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
 - [TRL](https://huggingface.co/docs/trl/)
 
 # Articles
-- [LIMR: Less is More for RL Scaling]()
-- [](https://github.com/GAIR-NLP/LIMO)
-- [](https://github.com/simplescaling/s1)
+- [LIMR: Less is More for RL Scaling](https://arxiv.org/pdf/2502.11886)
+- [LIMO: Less Is More for Reasoning](https://github.com/GAIR-NLP/LIMO)
+- [s1: Simple test-time scaling](https://github.com/simplescaling/s1) and s1.1 
+- [The 37 Implementation Details of Proximal Policy Optimization](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/)
+- [Online-DPO-R1: Unlocking Effective Reasoning Without the PPO Overhead](https://efficient-unicorn-451.notion.site/Online-DPO-R1-Unlocking-Effective-Reasoning-Without-the-PPO-Overhead-1908b9a70e7b80c3bc83f4cf04b2f175) and [github](https://github.com/RLHFlow/Online-DPO-R1)
 
 # Datasets
 - [Y] https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
