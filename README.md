@@ -1,8 +1,13 @@
 # Thinking model research notes
 
-# RL
+# RL overview
+- [Reinforcement Learning: An Overview](https://arxiv.org/pdf/2412.05265)
 - [A COMPREHENSIVE SURVEY OF LLM ALIGNMENT TECHNIQUES: RLHF, RLAIF, PPO, DPO AND MORE](https://arxiv.org/pdf/2407.16216)
+- [Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)
+- [The FASTEST introduction to Reinforcement Learning on the internet](https://www.youtube.com/watch?v=VnpRp7ZglfA)
+- [rlhf-book](https://github.com/natolambert/rlhf-book)
 
+# Methods for LLM training
 - [PPO - Proximal Policy Optimization Algorithm - OpenAI](https://arxiv.org/pdf/1707.06347)
 - [DPO - Direct Preference Optimization: Your Language Model is Secretly a Reward Model - Standford](https://arxiv.org/pdf/2305.18290)
 - [online DPO]()
@@ -19,8 +24,15 @@
 - [BCO]
 - [GKD]
 
+# Tutorials
+Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Policy Gradient Theorem -> TRPO -> PPO
+- [CS234: Reinforcement Learning Winter 2025 ](https://web.stanford.edu/class/cs234/)
+- [CS285 Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/)
+- [Welcome to Spinning Up in Deep RL](https://spinningup.openai.com/en/latest/index.html)
+- [deep-rl-course from Huggingface](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
+
+
 # RL explained
-- [rlhf-book](https://github.com/natolambert/rlhf-book)
 - [GRPO vs PPO](https://yugeten.github.io/posts/2025/01/ppogrpo/)
 
 # Training frameworks
@@ -34,8 +46,9 @@
 - [s1: Simple test-time scaling](https://github.com/simplescaling/s1) and s1.1 
 - [The 37 Implementation Details of Proximal Policy Optimization](https://iclr-blog-track.github.io/2022/03/25/ppo-implementation-details/)
 - [Online-DPO-R1: Unlocking Effective Reasoning Without the PPO Overhead](https://efficient-unicorn-451.notion.site/Online-DPO-R1-Unlocking-Effective-Reasoning-Without-the-PPO-Overhead-1908b9a70e7b80c3bc83f4cf04b2f175) and [github](https://github.com/RLHFlow/Online-DPO-R1)
+- [a reinforcement learning guide](https://naklecha.notion.site/a-reinforcement-learning-guide)
 
-# Datasets
+# Datasets - thinking models
 - [Y] https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
 
 - [Y] https://huggingface.co/datasets/simplescaling/s1K-1.1
