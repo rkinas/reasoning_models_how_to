@@ -20,6 +20,7 @@
 - [GKD]
 
 # RL explained
+- [rlhf-book](https://github.com/natolambert/rlhf-book)
 - [GRPO vs PPO](https://yugeten.github.io/posts/2025/01/ppogrpo/)
 
 # Training frameworks
