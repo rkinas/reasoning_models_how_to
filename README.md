@@ -41,6 +41,10 @@ This repository is designed as a reference for researchers and engineers working
 - [DPOP - Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive](https://arxiv.org/abs/2402.13228)
 - [BCO - Binary Classifier Optimization for Large Language Model Alignment](https://arxiv.org/pdf/2404.04656v1)
 
+## Minimal implementation
+|    Method                                                                                              |
+|--------------------------------------------------------------------------------------------------------|
+| [DPO](https://github.com/rkinas/rlhf_thinking_model/blob/main/minimal_implementation/dpo_trainer.py)   |   
 
 ## Tutorials
 Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Policy Gradient Theorem -> TRPO -> PPO
