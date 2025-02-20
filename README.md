@@ -1,4 +1,22 @@
-# Thinking model and RLHF research notes
+# **Thinking Model and RLHF Research Notes**  
+
+This repository serves as a collection of research notes and resources on **training large language models (LLMs)** and **Reinforcement Learning from Human Feedback (RLHF)**. It focuses on the latest research, methodologies, and techniques for fine-tuning language models.  
+
+## **Repository Contents**  
+
+### **Reinforcement Learning and RLHF Overview**  
+A curated list of materials providing an introduction to RL and RLHF:  
+- Research papers and books covering key concepts in reinforcement learning.  
+- Video lectures explaining the fundamentals of RLHF.  
+
+### **Methods for LLM Training**  
+An extensive collection of state-of-the-art approaches for optimizing preferences and model alignment:  
+- Key techniques such as PPO, DPO, KTO, ORPO, and more.  
+- The latest ArXiv publications and publicly available implementations.  
+- Analysis of effectiveness across different optimization strategies.  
+
+## **Purpose of this Repository**  
+This repository is designed as a reference for researchers and engineers working on **reinforcement learning and large language models**. If you're interested in **model alignment**, **experiments with DPO and its variants**, or **alternative RL-based methods**, you will find valuable resources here.  
 
 ## RL overview
 - [Reinforcement Learning: An Overview](https://arxiv.org/pdf/2412.05265)
@@ -14,15 +32,15 @@
 - [KTO - KTO: Model Alignment as Prospect Theoretic Optimization](https://arxiv.org/pdf/2402.01306)
 - [SimPO imple Preference Optimization with a Reference-Free Reward - Princeton](https://arxiv.org/pdf/2405.14734v1)
 - [ORPO - Monolithic Preference Optimization without Reference Model - Kaist AI](https://arxiv.org/pdf/2403.07691v2)
-- [REINFORCE]
+- [Sample Efficient Reinforcement Learning with REINFORCE](https://arxiv.org/pdf/2010.11364)
 - [REINFORCE++](https://arxiv.org/pdf/2501.03262v1)
 - [RPO Reward-aware Preference Optimization: A Unified Mathematical Framework for Model Alignment](https://arxiv.org/pdf/2501.03262v1)
-- RLOO 
-- [GRPO]
+- [RLOO - Back to Basics: Revisiting REINFORCE Style Optimization for Learning from Human Feedback in LLMs](https://arxiv.org/pdf/2402.14740) 
+- [GRPO](https://arxiv.org/pdf/2402.03300)
 - [ReMax -  Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models](https://arxiv.org/pdf/2310.10505)
-- [DPOP]
-- [BCO]
-- [GKD]
+- [DPOP - Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive](https://arxiv.org/abs/2402.13228)
+- [BCO - Binary Classifier Optimization for Large Language Model Alignment](https://arxiv.org/pdf/2404.04656v1)
+
 
 ## Tutorials
 Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Policy Gradient Theorem -> TRPO -> PPO
@@ -33,7 +51,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [RL Course by David Silver](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLzuuYNsE1EZAXYR4FJ75jcJseBmo4KQ9-)
 
 
-## RL explained
+## RLHF training techniques explained
 - [GRPO vs PPO](https://yugeten.github.io/posts/2025/01/ppogrpo/)
 
 ## Training frameworks
