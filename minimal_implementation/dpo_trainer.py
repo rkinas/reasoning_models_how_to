@@ -98,9 +98,9 @@ def main():
     parser.add_argument("--max_length", type=int, default=512)
     parser.add_argument("--lr", type=float, default=1e-6)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--model_name", type=str, default="microsoft/phi-2")
+    parser.add_argument("--model_name", type=str, default="meta-llama/Llama-3.2-1B-Instruct")
     parser.add_argument("--dataset_name", type=str, default="jondurbin/truthy-dpo-v0.1")
-    parser.add_argument("--wandb_project", type=str, default="truthy-dpo")
+    parser.add_argument("--wandb_project", type=str, default="minimal-dpo")
     args = parser.parse_args()
 
     # Setup
