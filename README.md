@@ -1,4 +1,4 @@
-# Thinking model research notes
+# Thinking model and RLHF research notes
 
 ## RL overview
 - [Reinforcement Learning: An Overview](https://arxiv.org/pdf/2412.05265)
