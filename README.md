@@ -60,9 +60,16 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [TRL](https://huggingface.co/docs/trl/)
 
 ## RLHF methods implementation (only with detailed explanations)
-- [GRPO A.Burkov](https://github.com/aburkov/theLMbook/blob/main/GRPO.py)
+- GRPO
+  - [GRPO A.Burkov](https://github.com/aburkov/theLMbook/blob/main/GRPO.py)
+  - [Minimal implementation by willccbb](https://gist.github.com/willccbb/4676755236bb08cab5f4e54a0475d6fb)
+  - [TinyZero](https://github.com/Jiayi-Pan/TinyZero)
+  - [microGRPO](https://github.com/superlinear-ai/microGRPO)
 
 ## Articles
+- [Reasoning LLMs](https://docs.google.com/document/d/1TW7wEUgo61FZnPckZMploGTdB0eNcemiDPDqdmzsCvA/edit?tab=t.0)
+- [Process Reinforcement through Implicit Rewards](https://curvy-check-498.notion.site/Process-Reinforcement-through-Implicit-Rewards-15f4fcb9c42180f1b498cc9b2eaf896f)
+- [DeepScaleR: Surpassing O1-Preview with a 1.5B Model by Scaling RL](https://pretty-radio-b75.notion.site/DeepScaleR-Surpassing-O1-Preview-with-a-1-5B-Model-by-Scaling-RL-19681902c1468005bed8ca303013a4e2)
 - [On the Emergence of Thinking in LLMs I: Searching for the Right Intuition](https://arxiv.org/pdf/2502.06773)
 - [LIMR: Less is More for RL Scaling](https://arxiv.org/pdf/2502.11886)
 - [LIMO: Less Is More for Reasoning](https://github.com/GAIR-NLP/LIMO)
@@ -71,6 +78,8 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [Online-DPO-R1: Unlocking Effective Reasoning Without the PPO Overhead](https://efficient-unicorn-451.notion.site/Online-DPO-R1-Unlocking-Effective-Reasoning-Without-the-PPO-Overhead-1908b9a70e7b80c3bc83f4cf04b2f175) and [github](https://github.com/RLHFlow/Online-DPO-R1)
 - [a reinforcement learning guide](https://naklecha.notion.site/a-reinforcement-learning-guide)
 - [Approximating KL Divergence](http://joschu.net/blog/kl-approx.html)
+- [How to align open LLMs in 2025 with DPO & and synthetic data](https://www.philschmid.de/rl-with-llms-in-2025-dpo)
+- DeepSeek-R1 -> [The Illustrated DeepSeek-R1](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1), [DeepSeek R1's recipe to replicate o1 and the future of reasoning LMs](https://www.interconnects.ai/p/deepseek-r1-recipe-for-o1), [DeepSeek R1 and R1-Zero Explained](https://thelmbook.com/articles/#!./DeepSeek-R1.md)
 
 # Thinking process
 
@@ -81,13 +90,17 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [Training Language Models to Reason Efficiently](https://arxiv.org/abs/2502.04463)
 - [Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search](https://arxiv.org/abs/2502.02508)
 
-## Datasets - thinking models
-- [Y] https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
-- [Y] https://huggingface.co/datasets/simplescaling/s1K-1.1
-- [Y] https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k
-- [Y] https://huggingface.co/datasets/GAIR/LIMO
-- [Y] https://huggingface.co/datasets/AI-MO/NuminaMath-CoT
+## Open-source project to reproduce DeepSeek R1
+- [DeepScaleR - Democratizing Reinforcement Learning for LLMs](https://github.com/agentica-project/deepscaler)
 
-# Evaluation 
-- https://github.com/huggingface/open-r1
+## Datasets - thinking models
+- [R1 - distill] https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
+- [R1 - distill] https://huggingface.co/datasets/simplescaling/s1K-1.1
+- [R1 - distill] https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k
+- [R1 - distill] https://huggingface.co/datasets/GAIR/LIMO
+- [R1 - distill] https://huggingface.co/datasets/AI-MO/NuminaMath-CoT
+
+# Evaluation and benchmarks
+- [Open R1 - A fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
+- [GMIL CM Benchmark - Math Reasoning as an 11-Year-Old](https://github.com/przadka/gmil-cm-benchmark?tab=readme-ov-file)
   
