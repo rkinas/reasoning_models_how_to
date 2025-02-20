@@ -90,6 +90,9 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 
 # Thinking process
 
+## Articles
+- ✨ [LLM Reasoning: Curated Insights](https://shangshangwang.notion.site/llm-reasoning)
+
 ## Papers
 - [SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models](https://arxiv.org/abs/2502.09604)
 - [ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates](https://arxiv.org/abs/2502.06772)
