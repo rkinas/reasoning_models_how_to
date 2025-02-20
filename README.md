@@ -59,6 +59,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [Reinforcement Learning from Human Feedback explained with math derivations and the PyTorch code.](https://www.youtube.com/watch?v=qGyFrqc34yc)
 - [Direct Preference Optimization (DPO) explained: Bradley-Terry model, log probabilities, math](https://www.youtube.com/watch?v=hvGa5Mba4c8)
 - [GRPO vs PPO](https://yugeten.github.io/posts/2025/01/ppogrpo/)
+- [Unraveling RLHF and Its Variants: Progress and Practical Engineering Insights](https://hijkzzz.notion.site/Unraveling-RLHF-and-Its-Variants-Progress-and-Practical-Engineering-Insights-147d9a33ecc980199dc5cb967c5e9374)
 
 ## Training frameworks
 - [VERL](https://github.com/volcengine/verl)
