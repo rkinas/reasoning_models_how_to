@@ -104,11 +104,12 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [DeepScaleR - Democratizing Reinforcement Learning for LLMs](https://github.com/agentica-project/deepscaler)
 
 ## Datasets - thinking models
-- [R1 - distill] https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
-- [R1 - distill] https://huggingface.co/datasets/simplescaling/s1K-1.1
-- [R1 - distill] https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k
-- [R1 - distill] https://huggingface.co/datasets/GAIR/LIMO
-- [R1 - distill] https://huggingface.co/datasets/AI-MO/NuminaMath-CoT
+- [R1 - distill] [OpenR1-Math-220k]https://huggingface.co/datasets/open-r1/OpenR1-Math-220k
+- [R1 - distill] [s1K-1.1](https://huggingface.co/datasets/simplescaling/s1K-1.1)
+- [R1 - distill] [OpenThoughts-114k](https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k)
+- [R1 - distill] [LIMO](https://huggingface.co/datasets/GAIR/LIMO)
+- [R1 - distill] [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)
+- [Llama-70B - distill][natural_reasoning](https://huggingface.co/datasets/facebook/natural_reasoning)
 
 # Evaluation and benchmarks
 - [Open R1 - A fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
