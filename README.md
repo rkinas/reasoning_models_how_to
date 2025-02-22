@@ -88,6 +88,12 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [How to align open LLMs in 2025 with DPO & and synthetic data](https://www.philschmid.de/rl-with-llms-in-2025-dpo)
 - DeepSeek-R1 -> [The Illustrated DeepSeek-R1](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1), [DeepSeek R1's recipe to replicate o1 and the future of reasoning LMs](https://www.interconnects.ai/p/deepseek-r1-recipe-for-o1), [DeepSeek R1 and R1-Zero Explained](https://thelmbook.com/articles/#!./DeepSeek-R1.md)
 
+- 2025.02.22
+  - [Small Models Struggle to Learn from Strong Reasoners](https://arxiv.org/pdf/2502.12143v1)
+  - [Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning](https://arxiv.org/pdf/2502.14768)
+  - [LongPO: Long Context Self-Evolution of Large Language Models through Short-to-Long Preference Optimization](https://www.arxiv.org/abs/2502.13922)
+  - [Open Reasoner Zero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero) An Open Source Approach to Scaling Up Reinforcement Learning on the Base Model
+
 # Thinking process
 
 ## Articles
@@ -109,7 +115,8 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [R1 - distill] [OpenThoughts-114k](https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k)
 - [R1 - distill] [LIMO](https://huggingface.co/datasets/GAIR/LIMO)
 - [R1 - distill] [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)
-- [Llama-70B - distill] [natural_reasoning](https://huggingface.co/datasets/facebook/natural_reasoning)
+- [Llama-70B - distill] [natural_reasoning](https://huggingface.co/datasets/facebook/natural_reasoning) - licence for non commercial use
+- [Open Reasoning Data ](https://gr.inc/)
 
 # Evaluation and benchmarks
 - [Open R1 - A fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
