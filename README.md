@@ -117,6 +117,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [R1 - distill] [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)
 - [Llama-70B - distill] [natural_reasoning](https://huggingface.co/datasets/facebook/natural_reasoning) - licence for non commercial use
 - [Open Reasoning Data ](https://gr.inc/)
+- [Big-Math: A Large-Scale, High-Quality Math Dataset for Reinforcement Learning in Language Models](https://huggingface.co/datasets/SynthLabsAI/Big-Math-RL-Verified)
 
 # Evaluation and benchmarks
 - [Open R1 - A fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
