@@ -98,6 +98,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 
 ## Articles
 - ✨ [LLM Reasoning: Curated Insights](https://shangshangwang.notion.site/llm-reasoning)
+- [LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!](https://arxiv.org/pdf/2502.07374)
 
 ## Papers
 - [SelfCite: Self-Supervised Alignment for Context Attribution in Large Language Models](https://arxiv.org/abs/2502.09604)
