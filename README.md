@@ -97,6 +97,9 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 
 # Thinking process
 
+## Repos
+- [Awesome-System2-Reasoning-LLM](https://github.com/zzli2022/Awesome-System2-Reasoning-LLM)
+
 ## Articles
 - ✨ [LLM Reasoning: Curated Insights](https://shangshangwang.notion.site/llm-reasoning)
 - [LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!](https://arxiv.org/pdf/2502.07374)
