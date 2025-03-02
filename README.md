@@ -24,6 +24,7 @@ This repository is designed as a reference for researchers and engineers working
 - [Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)
 - [The FASTEST introduction to Reinforcement Learning on the internet](https://www.youtube.com/watch?v=VnpRp7ZglfA)
 - [rlhf-book](https://github.com/natolambert/rlhf-book)
+- [Notes on reinforcement learning](https://newfacade.github.io/notes-on-reinforcement-learning/01-intro.html)
 
 ## Methods for LLM training
 - [PPO - Proximal Policy Optimization Algorithm - OpenAI](https://arxiv.org/pdf/1707.06347)
