@@ -89,11 +89,16 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [How to align open LLMs in 2025 with DPO & and synthetic data](https://www.philschmid.de/rl-with-llms-in-2025-dpo)
 - DeepSeek-R1 -> [The Illustrated DeepSeek-R1](https://newsletter.languagemodels.co/p/the-illustrated-deepseek-r1), [DeepSeek R1's recipe to replicate o1 and the future of reasoning LMs](https://www.interconnects.ai/p/deepseek-r1-recipe-for-o1), [DeepSeek R1 and R1-Zero Explained](https://thelmbook.com/articles/#!./DeepSeek-R1.md)
 
+- 2025.03.23
+  - [Reinforcement Learning for Reasoning in Small LLMs: What Works and WhatDoesn’t](https://arxiv.org/pdf/2503.16219)
+  - [Understanding R1-zero](https://github.com/sail-sg/understand-r1-zero/blob/main/understand-r1-zero.pdf)
+
 - 2025.02.22
   - [Small Models Struggle to Learn from Strong Reasoners](https://arxiv.org/pdf/2502.12143v1)
   - [Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning](https://arxiv.org/pdf/2502.14768)
   - [LongPO: Long Context Self-Evolution of Large Language Models through Short-to-Long Preference Optimization](https://www.arxiv.org/abs/2502.13922)
   - [Open Reasoner Zero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero) An Open Source Approach to Scaling Up Reinforcement Learning on the Base Model
+
 
 # Thinking process
 
@@ -111,6 +116,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [A Minimalist Approach to Offline Reinforcement Learning](https://arxiv.org/abs/2106.06860)
 - [Training Language Models to Reason Efficiently](https://arxiv.org/abs/2502.04463)
 - [Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search](https://arxiv.org/abs/2502.02508)
+
 
 ## Open-source project to reproduce DeepSeek R1
 - [DeepScaleR - Democratizing Reinforcement Learning for LLMs](https://github.com/agentica-project/deepscaler)
