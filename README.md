@@ -146,7 +146,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [DeepScaleR - Democratizing Reinforcement Learning for LLMs](https://github.com/agentica-project/deepscaler)
 
 ## Datasets - thinking models
-- Medicine
+- Medical
   - [lingshu-medical-mllm/ReasonMed](https://huggingface.co/datasets/lingshu-medical-mllm/ReasonMed)
   - [II-Medical-8B-1706](https://huggingface.co/Intelligent-Internet/II-Medical-8B-1706)
 - Math
