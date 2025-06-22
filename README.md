@@ -79,7 +79,8 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [Meta GenAI - LlamaR](https://arxiv.org/html/2505.24034v2) - Meta GenAI - LlamaRL: A Distributed Asynchronous Reinforcement Learning Framework for Efficient Large-scale LLM Training
 - [Verifiers: Reinforcement Learning with LLMs in Verifiable Environments](https://github.com/willccbb/verifiers) - verifiers is a set of tools and abstractions for training LLMs with reinforcement learning in verifiable multi-turn environments via Group-Relative Policy Optimization.
 - [RAGEN](https://github.com/RAGEN-AI/RAGEN) - RAGEN (Reasoning AGENt, pronounced like "region") leverages reinforcement learning (RL) to train LLM reasoning agents in interactive, stochastic environments.
-- [ART - Agent Reinforcement Trainer](https://github.com/OpenPipe/ART) - ART is an open-source reinforcement training library for improving LLM performance in agentic workflows. ART utilizes the powerful GRPO reinforcement learning algorithm to train models from their own experiences. 
+- [ART - Agent Reinforcement Trainer](https://github.com/OpenPipe/ART) - ART is an open-source reinforcement training library for improving LLM performance in agentic workflows. ART utilizes the powerful GRPO reinforcement learning algorithm to train models from their own experiences.
+- [Atropos - Nous Research's LLM RL Gym](https://github.com/NousResearch/atropos) - Atropos is an environment microservice framework for async RL with LLMs.
 
 ## RLHF methods implementation (only with detailed explanations)
 - GRPO
@@ -136,7 +137,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 ## Dataset generators and verifiers
 - [SynLogic](https://github.com/MiniMax-AI/SynLogic) - This repository contains the code and data for SynLogic, a comprehensive logical reasoning data synthesis framework that generates diverse, verifiable reasoning data at scale.
 - [Reasoning Gym](https://github.com/open-thought/reasoning-gym) - Reasoning Gym is a community-created Python library of procedural dataset generators and algorithmically verifiable reasoning environments for training reasoning models with reinforcement learning (RL). The goal is to generate virtually infinite training data with adjustable complexity.
-- []
+- [atropos - environments](https://github.com/NousResearch/atropos/tree/main/environments) - This directory contains various environments for training and evaluating language models on different tasks. Each environment implements a specific task with its own input format, reward function, and evaluation metrics.
 
 ## Repos
 - [Awesome-System2-Reasoning-LLM](https://github.com/zzli2022/Awesome-System2-Reasoning-LLM)
