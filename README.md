@@ -114,12 +114,18 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Truncated Proximal Policy Optimization](https://arxiv.org/abs/2506.15050) - Truncated Proximal Policy Optimization (T-PPO), a novel extension to PPO that improves training efficiency by streamlining policy update and length-restricted response generation. T-PPO mitigates the issue of low hardware utilization, an inherent drawback of fully synchronized long-generation procedures, where resources often sit idle during the waiting periods for complete rollouts.
   - [GRESO](https://infini-ai-lab.github.io/GRESO) - Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts - GRESO is a lightweight pre-rollout filter that skips uninformative prompts using reward dynamics, saving RL training time without hurting accuracy.
   - [AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy](https://arxiv.org/abs/2506.13284) - In this work, we investigate the synergy between supervised fine-tuning (SFT) and reinforcement learning (RL) in developing strong reasoning models. We begin by curating the SFT training data through two scaling strategies: increasing the number of collected prompts and the number of generated responses per prompt.
-  - [Self-Adapting Language Models](https://jyopari.github.io/posts/seal) - We introduce Self-Adapting LLMs (SEAL) 🦭, a framework that enables LLMs to self-adapt by generating their own finetuning data and update directives. Given a new input, the model produces a self-edit — a generation that may restructure the information in different ways, specify optimization hyperparameters, or invoke tools for data augmentation and gradient-based updates. 
+  - [Self-Adapting Language Models](https://jyopari.github.io/posts/seal) - We introduce Self-Adapting LLMs (SEAL) 🦭, a framework that enables LLMs to self-adapt by generating their own finetuning data and update directives. Given a new input, the model produces a self-edit — a generation that may restructure the information in different ways, specify optimization hyperparameters, or invoke tools for data augmentation and gradient-based updates.
+  - [VeriFree: Reinforcing General Reasoning without Verifiers](https://github.com/sail-sg/VeriFree)
 
 ## Books
 - [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
 
 # Thinking process
+
+## Dataset generators and verifiers
+- [SynLogic](https://github.com/MiniMax-AI/SynLogic) - This repository contains the code and data for SynLogic, a comprehensive logical reasoning data synthesis framework that generates diverse, verifiable reasoning data at scale.
+- [Reasoning Gym](https://github.com/open-thought/reasoning-gym) - Reasoning Gym is a community-created Python library of procedural dataset generators and algorithmically verifiable reasoning environments for training reasoning models with reinforcement learning (RL). The goal is to generate virtually infinite training data with adjustable complexity.
+- []
 
 ## Repos
 - [Awesome-System2-Reasoning-LLM](https://github.com/zzli2022/Awesome-System2-Reasoning-LLM)
@@ -136,19 +142,22 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [Training Language Models to Reason Efficiently](https://arxiv.org/abs/2502.04463)
 - [Satori: Reinforcement Learning with Chain-of-Action-Thought Enhances LLM Reasoning via Autoregressive Search](https://arxiv.org/abs/2502.02508)
 
-
 ## Open-source project to reproduce DeepSeek R1
 - [DeepScaleR - Democratizing Reinforcement Learning for LLMs](https://github.com/agentica-project/deepscaler)
 
 ## Datasets - thinking models
-- [R1 - distill] [OpenR1-Math-220k](https://huggingface.co/datasets/open-r1/OpenR1-Math-220k)
-- [R1 - distill] [s1K-1.1](https://huggingface.co/datasets/simplescaling/s1K-1.1)
-- [R1 - distill] [OpenThoughts-114k](https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k)
-- [R1 - distill] [LIMO](https://huggingface.co/datasets/GAIR/LIMO)
-- [R1 - distill] [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)
-- [Llama-70B - distill] [natural_reasoning](https://huggingface.co/datasets/facebook/natural_reasoning) - licence for non commercial use
-- [Open Reasoning Data ](https://gr.inc/)
-- [Big-Math: A Large-Scale, High-Quality Math Dataset for Reinforcement Learning in Language Models](https://huggingface.co/datasets/SynthLabsAI/Big-Math-RL-Verified)
+- Medicine
+  - [lingshu-medical-mllm/ReasonMed](https://huggingface.co/datasets/lingshu-medical-mllm/ReasonMed)
+  - [II-Medical-8B-1706](https://huggingface.co/Intelligent-Internet/II-Medical-8B-1706)
+- Math
+  - [R1 - distill] [OpenR1-Math-220k](https://huggingface.co/datasets/open-r1/OpenR1-Math-220k)
+  - [R1 - distill] [s1K-1.1](https://huggingface.co/datasets/simplescaling/s1K-1.1)
+  - [R1 - distill] [OpenThoughts-114k](https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k)
+  - [R1 - distill] [LIMO](https://huggingface.co/datasets/GAIR/LIMO)
+  - [R1 - distill] [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT)
+  - [Llama-70B - distill] [natural_reasoning](https://huggingface.co/datasets/facebook/natural_reasoning) - licence for non commercial use
+  - [Open Reasoning Data ](https://gr.inc/)
+  - [Big-Math: A Large-Scale, High-Quality Math Dataset for Reinforcement Learning in Language Models](https://huggingface.co/datasets/SynthLabsAI/Big-Math-RL-Verified)
 
 # Evaluation and benchmarks
 - [Open R1 - A fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
