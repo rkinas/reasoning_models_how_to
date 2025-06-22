@@ -71,7 +71,9 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [RL2](https://github.com/ChenmienTan/RL2) - Ray Less Reinforcement Learning. The NanoGPT of RL with it's small and hackable size (<1k lines)
 - [AReal](https://github.com/inclusionAI/AReaL) - AReaL (Ant Reasoning RL): LLM generation runs in a streaming manner, with each rollout worker continuously producing outputs without waiting
 - [OAT](https://github.com/sail-sg/oat) - Oat 🌾 is a simple yet efficient framework for running online LLM alignment algorithms.
-- [](https://arxiv.org/html/2505.24034v2) - Meta GenAI - LlamaRL: A Distributed Asynchronous Reinforcement Learning Framework for Efficient Large-scale LLM Training
+- [Meta GenAI - LlamaR](https://arxiv.org/html/2505.24034v2) - Meta GenAI - LlamaRL: A Distributed Asynchronous Reinforcement Learning Framework for Efficient Large-scale LLM Training
+- [Verifiers: Reinforcement Learning with LLMs in Verifiable Environments](https://github.com/willccbb/verifiers) - verifiers is a set of tools and abstractions for training LLMs with reinforcement learning in verifiable multi-turn environments via Group-Relative Policy Optimization.
+- [RAGEN](https://github.com/RAGEN-AI/RAGEN) - RAGEN (Reasoning AGENt, pronounced like "region") leverages reinforcement learning (RL) to train LLM reasoning agents in interactive, stochastic environments.
 
 ## RLHF methods implementation (only with detailed explanations)
 - GRPO
@@ -104,6 +106,10 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning](https://arxiv.org/pdf/2502.14768)
   - [LongPO: Long Context Self-Evolution of Large Language Models through Short-to-Long Preference Optimization](https://www.arxiv.org/abs/2502.13922)
   - [Open Reasoner Zero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero) An Open Source Approach to Scaling Up Reinforcement Learning on the Base Model
+ 
+  - 2025.06.22
+    - [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://shenzhi-wang.github.io/high-entropy-minority-tokens-rlvr/)
+    - 
 
 
 # Thinking process
