@@ -107,10 +107,17 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [LongPO: Long Context Self-Evolution of Large Language Models through Short-to-Long Preference Optimization](https://www.arxiv.org/abs/2502.13922)
   - [Open Reasoner Zero](https://github.com/Open-Reasoner-Zero/Open-Reasoner-Zero) An Open Source Approach to Scaling Up Reinforcement Learning on the Base Model
  
-  - 2025.06.22
-    - [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://shenzhi-wang.github.io/high-entropy-minority-tokens-rlvr/)
-    - 
+- 2025.06.22
+  - [Beyond the 80/20 Rule: High-Entropy Minority Tokens Drive Effective Reinforcement Learning for LLM Reasoning](https://shenzhi-wang.github.io/high-entropy-minority-tokens-rlvr/)
+  - [POLARIS: A POst-training recipe for scaling reinforcement Learning on Advanced ReasonIng modelS](https://hkunlp.github.io/blog/2025/Polaris/) - data dificulty, Diversity-Based Rollout, Inference-Time Lengt, Exploration Efficiency.
+  - [ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs](https://arxiv.org/abs/2506.15211) - cross-domain generalization arises from shared abstract reasoning prototypes — fundamental reasoning patterns that capture the essence of problems across domains.
+  - [Truncated Proximal Policy Optimization](https://arxiv.org/abs/2506.15050) - Truncated Proximal Policy Optimization (T-PPO), a novel extension to PPO that improves training efficiency by streamlining policy update and length-restricted response generation. T-PPO mitigates the issue of low hardware utilization, an inherent drawback of fully synchronized long-generation procedures, where resources often sit idle during the waiting periods for complete rollouts.
+  - [GRESO](https://infini-ai-lab.github.io/GRESO) - Act Only When It Pays: Efficient Reinforcement Learning for LLM Reasoning via Selective Rollouts - GRESO is a lightweight pre-rollout filter that skips uninformative prompts using reward dynamics, saving RL training time without hurting accuracy.
+  - [AceReason-Nemotron 1.1: Advancing Math and Code Reasoning through SFT and RL Synergy](https://arxiv.org/abs/2506.13284) - In this work, we investigate the synergy between supervised fine-tuning (SFT) and reinforcement learning (RL) in developing strong reasoning models. We begin by curating the SFT training data through two scaling strategies: increasing the number of collected prompts and the number of generated responses per prompt.
+  - [Self-Adapting Language Models](https://jyopari.github.io/posts/seal) - We introduce Self-Adapting LLMs (SEAL) 🦭, a framework that enables LLMs to self-adapt by generating their own finetuning data and update directives. Given a new input, the model produces a self-edit — a generation that may restructure the information in different ways, specify optimization hyperparameters, or invoke tools for data augmentation and gradient-based updates. 
 
+## Books
+- [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
 
 # Thinking process
 
