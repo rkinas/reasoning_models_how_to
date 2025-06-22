@@ -1,4 +1,4 @@
-# **Thinking Model and RLHF Research Notes**  
+# **Reasoning Model and RLHF Research Notes**  
 
 This repository serves as a collection of research notes and resources on **training large language models (LLMs)** and **Reinforcement Learning from Human Feedback (RLHF)**. It focuses on the latest research, methodologies, and techniques for fine-tuning language models.  
 
@@ -66,6 +66,11 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [VERL](https://github.com/volcengine/verl)
 - [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
 - [TRL](https://huggingface.co/docs/trl/)
+- [Nemo-RL](https://github.com/NVIDIA-NeMo/RL)
+- [ROLL](https://github.com/alibaba/ROLL/) - Large scale training with megatron support, a feature-rich codebase from Alibaba
+- [RL2](https://github.com/ChenmienTan/RL2) - Ray Less Reinforcement Learning. The NanoGPT of RL with it's small and hackable size (<1k lines)
+- [AReal](https://github.com/inclusionAI/AReaL) - AReaL (Ant Reasoning RL): LLM generation runs in a streaming manner, with each rollout worker continuously producing outputs without waiting
+- [OAT](https://github.com/sail-sg/oat) - Oat 🌾 is a simple yet efficient framework for running online LLM alignment algorithms. 
 
 ## RLHF methods implementation (only with detailed explanations)
 - GRPO
