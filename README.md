@@ -130,6 +130,9 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 
 # Thinking process
 
+## Models cases
+- [AIMO-2 Winning Solution: Building State-of-the-Art Mathematical Reasoning Models with OpenMathReasoning dataset](https://arxiv.org/abs/2504.16891)
+
 ## Dataset generators and verifiers
 - [SynLogic](https://github.com/MiniMax-AI/SynLogic) - This repository contains the code and data for SynLogic, a comprehensive logical reasoning data synthesis framework that generates diverse, verifiable reasoning data at scale.
 - [Reasoning Gym](https://github.com/open-thought/reasoning-gym) - Reasoning Gym is a community-created Python library of procedural dataset generators and algorithmically verifiable reasoning environments for training reasoning models with reinforcement learning (RL). The goal is to generate virtually infinite training data with adjustable complexity.
@@ -166,6 +169,8 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Llama-70B - distill] [natural_reasoning](https://huggingface.co/datasets/facebook/natural_reasoning) - licence for non commercial use
   - [Open Reasoning Data ](https://gr.inc/)
   - [Big-Math: A Large-Scale, High-Quality Math Dataset for Reinforcement Learning in Language Models](https://huggingface.co/datasets/SynthLabsAI/Big-Math-RL-Verified)
+  - 2025.06.22
+    - [chiayewken/competition_math](https://huggingface.co/datasets/chiayewken/competition_math)  
 
 # Evaluation and benchmarks
 - [Open R1 - A fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
