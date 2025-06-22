@@ -170,7 +170,8 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Open Reasoning Data ](https://gr.inc/)
   - [Big-Math: A Large-Scale, High-Quality Math Dataset for Reinforcement Learning in Language Models](https://huggingface.co/datasets/SynthLabsAI/Big-Math-RL-Verified)
   - 2025.06.22
-    - [chiayewken/competition_math](https://huggingface.co/datasets/chiayewken/competition_math)  
+    - [chiayewken/competition_math](https://huggingface.co/datasets/chiayewken/competition_math)
+    - [POLARIS-Project/Polaris-Dataset-53K](https://huggingface.co/datasets/POLARIS-Project/Polaris-Dataset-53K)
 
 # Evaluation and benchmarks
 - [Open R1 - A fully open reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
