@@ -74,6 +74,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [Meta GenAI - LlamaR](https://arxiv.org/html/2505.24034v2) - Meta GenAI - LlamaRL: A Distributed Asynchronous Reinforcement Learning Framework for Efficient Large-scale LLM Training
 - [Verifiers: Reinforcement Learning with LLMs in Verifiable Environments](https://github.com/willccbb/verifiers) - verifiers is a set of tools and abstractions for training LLMs with reinforcement learning in verifiable multi-turn environments via Group-Relative Policy Optimization.
 - [RAGEN](https://github.com/RAGEN-AI/RAGEN) - RAGEN (Reasoning AGENt, pronounced like "region") leverages reinforcement learning (RL) to train LLM reasoning agents in interactive, stochastic environments.
+- [ART - Agent Reinforcement Trainer](https://github.com/OpenPipe/ART) - ART is an open-source reinforcement training library for improving LLM performance in agentic workflows. ART utilizes the powerful GRPO reinforcement learning algorithm to train models from their own experiences. 
 
 ## RLHF methods implementation (only with detailed explanations)
 - GRPO
