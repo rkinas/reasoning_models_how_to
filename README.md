@@ -41,6 +41,11 @@ This repository is designed as a reference for researchers and engineers working
 - [ReMax -  Simple, Effective, and Efficient Reinforcement Learning Method for Aligning Large Language Models](https://arxiv.org/pdf/2310.10505)
 - [DPOP - Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive](https://arxiv.org/abs/2402.13228)
 - [BCO - Binary Classifier Optimization for Large Language Model Alignment](https://arxiv.org/pdf/2404.04656v1)
+- [PRIME]() - 
+- [DAPO](https://dapo-sia.github.io/) - DAPO: an Open-Source LLM Reinforcement Learning System at Scale - Decoupled Clip and Dynamic sAmpling Policy Optimization (DAPO) algorithm. By making our work publicly available, we provide the broader research community and society with practical access to scalable reinforcement learning, enabling all to benefit from these advancements.
+- [VAPO](https://arxiv.org/pdf/2504.05118) - VAPO: Efficient and Reliable Reinforcement Learning for Advanced Reasoning Tasks
+- [DR-GRPO](https://arxiv.org/pdf/2503.20783) - Understanding R1-Zero-Like Training: A Critical Perspective
+- [ KL_Cov & Clip_Cov](https://arxiv.org/abs/2505.22617) - The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models
 
 ## Minimal implementation
 |    Method                                                                                              |
