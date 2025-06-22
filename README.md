@@ -63,14 +63,15 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [Unraveling RLHF and Its Variants: Progress and Practical Engineering Insights](https://hijkzzz.notion.site/Unraveling-RLHF-and-Its-Variants-Progress-and-Practical-Engineering-Insights-147d9a33ecc980199dc5cb967c5e9374)
 
 ## Training frameworks
-- [VERL](https://github.com/volcengine/verl)
-- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
-- [TRL](https://huggingface.co/docs/trl/)
-- [Nemo-RL](https://github.com/NVIDIA-NeMo/RL)
+- [VERL](https://github.com/volcengine/verl) - Volcano Engine Reinforcement Learning for LLMs
+- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF) - OpenRLHF is the first easy-to-use, high-performance open-source RLHF framework built on Ray, vLLM, ZeRO-3 and HuggingFace Transformers, designed to make RLHF training simple and accessible
+- [TRL](https://huggingface.co/docs/trl/) - TRL is a full stack library where we provide a set of tools to train transformer language models with methods like Supervised Fine-Tuning (SFT), Group Relative Policy Optimization (GRPO), Direct Preference Optimization (DPO), Reward Modeling, and more. 
+- [Nemo-RL](https://github.com/NVIDIA-NeMo/RL) - Nemo RL: A Scalable and Efficient Post-Training Library
 - [ROLL](https://github.com/alibaba/ROLL/) - Large scale training with megatron support, a feature-rich codebase from Alibaba
 - [RL2](https://github.com/ChenmienTan/RL2) - Ray Less Reinforcement Learning. The NanoGPT of RL with it's small and hackable size (<1k lines)
 - [AReal](https://github.com/inclusionAI/AReaL) - AReaL (Ant Reasoning RL): LLM generation runs in a streaming manner, with each rollout worker continuously producing outputs without waiting
-- [OAT](https://github.com/sail-sg/oat) - Oat 🌾 is a simple yet efficient framework for running online LLM alignment algorithms. 
+- [OAT](https://github.com/sail-sg/oat) - Oat 🌾 is a simple yet efficient framework for running online LLM alignment algorithms.
+- [](https://arxiv.org/html/2505.24034v2) - Meta GenAI - LlamaRL: A Distributed Asynchronous Reinforcement Learning Framework for Efficient Large-scale LLM Training
 
 ## RLHF methods implementation (only with detailed explanations)
 - GRPO
