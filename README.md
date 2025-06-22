@@ -117,6 +117,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Self-Adapting Language Models](https://jyopari.github.io/posts/seal) - We introduce Self-Adapting LLMs (SEAL) 🦭, a framework that enables LLMs to self-adapt by generating their own finetuning data and update directives. Given a new input, the model produces a self-edit — a generation that may restructure the information in different ways, specify optimization hyperparameters, or invoke tools for data augmentation and gradient-based updates.
   - [VeriFree: Reinforcing General Reasoning without Verifiers](https://github.com/sail-sg/VeriFree)
   - [Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning](https://github.com/YixuanEvenXu/pods) - This repository contains the source code for the experiments in paper [Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning](https://arxiv.org/abs/2504.13818). We implemented GRPO-PODS (Policy Optimization with Down-Sampling) and compared its performance with vanilla GRPO.
+  - [Spurious Rewards: Rethinking Training Signals in RLVR](https://rethink-rlvr.notion.site/Spurious-Rewards-Rethinking-Training-Signals-in-RLVR-1f4df34dac1880948858f95aeb88872f) - We show that you can do RLVR on Qwen2.5-Math models with completely random or incorrect rewards, and still get massive math benchmark gains.
 
 ## Books
 - [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
