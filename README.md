@@ -126,6 +126,17 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning](https://github.com/YixuanEvenXu/pods) - This repository contains the source code for the experiments in paper [Not All Rollouts are Useful: Down-Sampling Rollouts in LLM Reinforcement Learning](https://arxiv.org/abs/2504.13818). We implemented GRPO-PODS (Policy Optimization with Down-Sampling) and compared its performance with vanilla GRPO.
   - [Spurious Rewards: Rethinking Training Signals in RLVR](https://rethink-rlvr.notion.site/Spurious-Rewards-Rethinking-Training-Signals-in-RLVR-1f4df34dac1880948858f95aeb88872f) - We show that you can do RLVR on Qwen2.5-Math models with completely random or incorrect rewards, and still get massive math benchmark gains.
   - [Towards a More Efficient Reasoning LLM: AIMO2 Solution Summary and Introduction to Fast-Math Models](https://github.com/rkinas/reasoning_models_how_to/blob/main/pdf/Shanghai_Kaggler_2025-2.pdf)
+ 
+- 2025.06.23
+  - [Generalization or Hallucination? Understanding Out-of-Context Reasoning in Transformers](https://arxiv.org/abs/2506.10887) - Large language models (LLMs) can acquire new knowledge through fine-tuning, but this process exhibits a puzzling duality: models can generalize remarkably from new facts, yet are also prone to hallucinating incorrect information.
+  - [The Surprising Effectiveness of Negative Reinforcement in LLM Reasoning](https://github.com/TianHongZXY/RLVR-Decomposed/) - Reinforcement learning with verifiable rewards (RLVR) is a promising approach for training language models (LMs) on reasoning tasks that elicit emergent long chains of thought (CoTs).
+  - [Thinker: Learning to Think Fast and Slow](https://arxiv.org/abs/2505.21097) - Recent studies show that the reasoning capabilities of Large Language Models (LLMs) can be improved by applying Reinforcement Learning (RL) to question-answering (QA) tasks in areas such as math and coding. With a long context length, LLMs may learn to perform search, as indicated by the self-correction behavior observed in DeepSeek R1.
+  - [OpenThoughts3 - A new SOTA Reasoning Data Recipe](https://www.openthoughts.ai/blog/ot3)
+  - [BLEUBERI: BLEU is a surprisingly effective reward for instruction following](https://github.com/lilakk/BLEUBERI)
+  - [How much do language models memorize?](https://arxiv.org/abs/2505.24832)
+  - [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007)
+  - [SPEED-RL: Faster Training of Reasoning Models via Online Curriculum Learning](https://zanette-labs.github.io/speed-rl/)
+  - [e3: Learning to Explore Enables Extrapolation of Test-Time Compute for LLMs](https://matthewyryang.com/e3/)
 
 ## Books
 - [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
