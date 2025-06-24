@@ -137,6 +137,11 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Reinforcement Pre-Training](https://arxiv.org/abs/2506.08007)
   - [SPEED-RL: Faster Training of Reasoning Models via Online Curriculum Learning](https://zanette-labs.github.io/speed-rl/)
   - [e3: Learning to Explore Enables Extrapolation of Test-Time Compute for LLMs](https://matthewyryang.com/e3/)
+ 
+  - 2025.06.24
+    - [Reinforcement Learning Teachers of Test Time Scaling](https://sakana.ai/rlt/)
+    - [No Free Lunch: Rethinking Internal Feedback for LLM Reasoning](https://arxiv.org/abs/2506.17219)
+    - [EvoLM: In Search of Lost Language Model Training Dynamics](https://arxiv.org/abs/2506.16029)
 
 ## Books
 - [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
