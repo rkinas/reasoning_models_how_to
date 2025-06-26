@@ -142,6 +142,9 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
   - [Reinforcement Learning Teachers of Test Time Scaling](https://sakana.ai/rlt/)
   - [No Free Lunch: Rethinking Internal Feedback for LLM Reasoning](https://arxiv.org/abs/2506.17219)
   - [EvoLM: In Search of Lost Language Model Training Dynamics](https://arxiv.org/abs/2506.16029)
+ 
+- 2025.06.27
+  - [OctoThinker: Mid-training Incentivizes Reinforcement Learning Scaling](https://arxiv.org/abs/2506.20512) - Different base language model families, such as Llama and Qwen, exhibit divergent behaviors during post-training with reinforcement learning (RL), especially on reasoning-intensive tasks. What makes a base language model suitable for reinforcement learning?    
 
 ## Books
 - [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
