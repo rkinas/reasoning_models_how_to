@@ -81,6 +81,7 @@ Notes for learning RL: Value Iteration -> Q Learning -> DQN -> REINFORCE -> Poli
 - [RAGEN](https://github.com/RAGEN-AI/RAGEN) - RAGEN (Reasoning AGENt, pronounced like "region") leverages reinforcement learning (RL) to train LLM reasoning agents in interactive, stochastic environments.
 - [ART - Agent Reinforcement Trainer](https://github.com/OpenPipe/ART) - ART is an open-source reinforcement training library for improving LLM performance in agentic workflows. ART utilizes the powerful GRPO reinforcement learning algorithm to train models from their own experiences.
 - [Atropos - Nous Research's LLM RL Gym](https://github.com/NousResearch/atropos) - Atropos is an environment microservice framework for async RL with LLMs.
+- [slime](https://github.com/THUDM/slime) - slime is an LLM post-training framework for RL scaling
 
 ## RLHF methods implementation (only with detailed explanations)
 - GRPO
